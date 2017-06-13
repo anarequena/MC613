@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Foo\Documents\MC613\Projeto\Projeto\simulation\qsim
+vALU
+Z1 !s100 [<YNfPjYezPV09K6L^lZf0
+Z2 INHhH:KnikA0;@R2_a96F33
+Z3 Vo@LGUFYdO6dkjI3c59kh03
+Z4 dC:\Users\Foo\Documents\MC613\Projeto\Projeto\simulation\qsim
+Z5 w1495400509
+Z6 8ComputadorIAS.vo
+Z7 FComputadorIAS.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ComputadorIAS.vo|
+Z10 o-work work -O0
+Z11 n@a@l@u
+!i10b 1
+!s85 0
+Z12 !s108 1495400510.041000
+Z13 !s107 ComputadorIAS.vo|
+!s101 -O0
+vALU_vlg_check_tst
+!i10b 1
+Z14 !s100 cJM]e@BJ5gmgjZJRgAVP@2
+Z15 IL>X^;VRMDJC1TO`Hf<h[S2
+Z16 VczfBEQ;P=fCi?i5nYk[001
+R4
+Z17 w1495400500
+Z18 8ComputadorIAS.vt
+Z19 FComputadorIAS.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1495400517.059000
+Z21 !s107 ComputadorIAS.vt|
+Z22 !s90 -work|work|ComputadorIAS.vt|
+!s101 -O0
+R10
+Z23 n@a@l@u_vlg_check_tst
+vALU_vlg_sample_tst
+!i10b 1
+Z24 !s100 NNI0Mm[9e<Dh_<c<fd6aU0
+Z25 I8ZN@0L4hfWjjV=e[C3zX]0
+Z26 VRdFIF0BJ3KMomV?m;[3ND3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@a@l@u_vlg_sample_tst
+vALU_vlg_vec_tst
+!i10b 1
+Z28 !s100 o4^d:CDBiG;1:gJi;`VPE2
+Z29 I[7>LEM>oV1Z5HmY86I^V]3
+Z30 V>bFnnU[^IecCM5^<l3;]W0
+R4
+R17
+R18
+R19
+Z31 L0 2311
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@a@l@u_vlg_vec_tst

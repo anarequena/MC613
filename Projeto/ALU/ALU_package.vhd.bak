@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package ALU_package is
+	component ALU is
+		port (reset, load_memory_map : in std_logic
+				);
+	end component;
+end ALU_package;

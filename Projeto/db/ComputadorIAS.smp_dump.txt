@@ -1,0 +1,6 @@
+
+State Machine - |demo_setup|IAS:ias0|ControlUnit:control_unit|next_cycle
+Name next_cycle.exec next_cycle.fetch_right next_cycle.fetch_left 
+next_cycle.fetch_left 0 0 0 
+next_cycle.fetch_right 0 1 1 
+next_cycle.exec 1 0 1 

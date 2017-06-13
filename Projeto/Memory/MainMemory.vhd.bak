@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity MainMemory is
+	port (reset, load_memory_map : in std_logic
+			);
+end MainMemory;
+
+architecture Behavior of MainMemory is
+
+end Behavior;

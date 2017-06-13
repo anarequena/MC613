@@ -1,0 +1,121 @@
+# do ComputadorIAS.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_vlg_sample_tst
+# -- Compiling module ALU_vlg_check_tst
+# -- Compiling module ALU_vlg_vec_tst
+# 
+# Top level modules:
+# 	ALU_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.ALU_vlg_vec_tst 
+# Loading work.ALU_vlg_vec_tst
+# Loading work.ALU
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_mac_out
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_mac_mult
+# Loading cycloneii_ver.cycloneii_mac_data_reg
+# Loading cycloneii_ver.cycloneii_mac_sign_reg
+# Loading cycloneii_ver.cycloneii_mac_mult_internal
+# Loading work.ALU_vlg_sample_tst
+# Loading work.ALU_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6778): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(6779): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ERROR! Vector Mismatch for output port MBR[1] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[2] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[6] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[29] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[30] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[32] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[37] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[38] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port MBR[39] :: @time = 2000.000 ps
+#      Expected value = 1001000101100000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000110
+# ERROR! Vector Mismatch for output port AC[0] :: @time = 4000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0000000000000000000000000000000000000001
+# ERROR! Vector Mismatch for output port MQ[0] :: @time = 4000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0000000000000000000000000000000000000001
+# ERROR! Vector Mismatch for output port AC[1] :: @time = 24000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000111
+# ERROR! Vector Mismatch for output port AC[2] :: @time = 24000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000111
+# ERROR! Vector Mismatch for output port AC[6] :: @time = 24000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000111
+# ERROR! Vector Mismatch for output port AC[36] :: @time = 24000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000111
+# ERROR! Vector Mismatch for output port AC[37] :: @time = 24000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000111
+# ERROR! Vector Mismatch for output port AC[38] :: @time = 24000.000 ps
+#      Expected value = 0000000000000000000000000000000000000000
+#      Real value = 0111000000000000000000000000000001000111
+#          17 mismatched vectors : Simulation failed !
+# ** Note: $finish    : ComputadorIAS.vt(2307)
+#    Time: 128 ns  Iteration: 0  Instance: /ALU_vlg_vec_tst/tb_out

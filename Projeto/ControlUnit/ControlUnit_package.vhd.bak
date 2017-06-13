@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package ControlUnit_package is
+	component ControlUnit is
+		port (reset, clock : in std_logic
+				);
+	end component;
+end ControlUnit_package;

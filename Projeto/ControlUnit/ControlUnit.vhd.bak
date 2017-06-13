@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ControlUnit is
+	port (reset, clock : in std_logic
+			);
+end ControlUnit;
+
+architecture Behavior of ControlUnit is
+
+end Behavior;

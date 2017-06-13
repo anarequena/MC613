@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -3.294
+TNS   : -82.559
+
+Type  : Slow Model Setup 'IAS:ias0|ControlUnit:control_unit|PC_en'
+Slack : -1.809
+TNS   : -18.938
+
+Type  : Slow Model Setup 'ClockDivisor:clock_d|CounterMod:convert|Count[0]'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.095
+TNS   : -9.816
+
+Type  : Slow Model Hold 'ClockDivisor:clock_d|CounterMod:convert|Count[0]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Hold 'IAS:ias0|ControlUnit:control_unit|PC_en'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.631
+TNS   : -63.953
+
+Type  : Slow Model Minimum Pulse Width 'IAS:ias0|ControlUnit:control_unit|PC_en'
+Slack : -0.611
+TNS   : -31.772
+
+Type  : Slow Model Minimum Pulse Width 'ClockDivisor:clock_d|CounterMod:convert|Count[0]'
+Slack : -0.611
+TNS   : -2.444
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.672
+TNS   : -15.924
+
+Type  : Fast Model Setup 'IAS:ias0|ControlUnit:control_unit|PC_en'
+Slack : -0.117
+TNS   : -0.258
+
+Type  : Fast Model Setup 'ClockDivisor:clock_d|CounterMod:convert|Count[0]'
+Slack : 0.644
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.549
+TNS   : -10.807
+
+Type  : Fast Model Hold 'ClockDivisor:clock_d|CounterMod:convert|Count[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'IAS:ias0|ControlUnit:control_unit|PC_en'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -52.380
+
+Type  : Fast Model Minimum Pulse Width 'IAS:ias0|ControlUnit:control_unit|PC_en'
+Slack : -0.500
+TNS   : -26.000
+
+Type  : Fast Model Minimum Pulse Width 'ClockDivisor:clock_d|CounterMod:convert|Count[0]'
+Slack : -0.500
+TNS   : -2.000
+
+------------------------------------------------------------

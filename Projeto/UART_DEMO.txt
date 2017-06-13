@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_1164.all;
+library Memory;
+use Memory.MainMemory_package.all;
+use work.all;
+
+entity demo_setup is
+	port (SW : in std_logic_vector(9 downto 0);
+			KEY : in std_logic_vector(3 downto 0);
+			LEDR : out std_logic_vector(9 downto 0);
+			LEDG : out std_logic_vector(7 downto 0);
+			HEX0 : out std_logic_vector(6 downto 0);
+			HEX1 : out std_logic_vector(6 downto 0);
+			HEX2 : out std_logic_vector(6 downto 0);
+			HEX3 : out std_logic_vector(6 downto 0);
+			CLOCK_50 : in std_logic;
+			UART_TXD : out std_logic;
+			UART_RXD : in std_logic
+			);
+end demo_setup;
+
+architecture Comportamento of demo_setup is
+signal TX_DATA : std_logic_vector(7 downto 0);
+signal TX_START : std_logic := '0';
+signal TX_BUSY: std_logic; 
+signal clk : std_logic;
+
+begin
+	clk <= not KEY(0);
+
+	uart: 
+	UART_TX 	port map(
+			clk =>clk,
+			start => TX_START,
+			busy => TX_BUSY,
+			tx_line => UART_TXD, 
+			data_in => TX_DATA
+		);
+		
+	process(clk)
+	begin
+		if(clk'event and clk = '1') then
+			if(not KEY(1) = '1' and TX_BUSY = '0') then
+				TX_DATA <= SW(7 downto 0);
+				TX_START <= '1';
+				LEDG <= TX_DATA;
+			else
+				TX_START <= '0';
+			end if;
+		end if;
+	end process;
+
+end Comportamento;
